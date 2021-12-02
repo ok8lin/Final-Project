@@ -39,12 +39,14 @@ __meta__ = {
 }
 
 [node name="Text" type="Label" parent="."]
+anchor_left = 0.000726995
+anchor_right = 0.000726995
 margin_left = 115.0
 margin_top = 25.0
 margin_right = 915.0
 margin_bottom = 375.0
 custom_fonts/font = SubResource( 1 )
-text = "Outside of Church"
+text = "You explore the outside of the church. You don't get far into your exploration before you start to feel as if you are being watched. Without a second thought, a hooded man grabs you. You scream and thrash around but to no avail. You feel a pinch in the arm and realize you have been stabbed with something. Your eyes feel heavy and your mind is blurry. What do you do?"
 align = 1
 valign = 1
 autowrap = true
@@ -67,11 +69,12 @@ margin_top = 400.0
 margin_right = 699.087
 margin_bottom = 440.0
 custom_fonts/font = SubResource( 2 )
-text = "The Bookshelf"
+text = "Try To Fight It"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+Next_Scene = "res://Scenes/Inside.tscn"
 
 [node name="Response2" type="Button" parent="Responses"]
 anchor_top = -0.0456329
@@ -81,11 +84,12 @@ margin_top = 451.825
 margin_right = 700.0
 margin_bottom = 491.825
 custom_fonts/font = SubResource( 2 )
-text = "The Pews"
+text = "Give Up"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+Next_Scene = "res://Scenes/Inside.tscn"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )

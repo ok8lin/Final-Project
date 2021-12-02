@@ -65,9 +65,9 @@ __meta__ = {
 [node name="Response1" type="Button" parent="Responses"]
 anchor_left = 0.022818
 anchor_right = 0.022818
-margin_left = 299.087
+margin_left = 298.174
 margin_top = 400.0
-margin_right = 699.087
+margin_right = 698.174
 margin_bottom = 440.0
 custom_fonts/font = SubResource( 2 )
 text = "Go Down It"

@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Response.gd" type="Script" id=1]
 [ext_resource path="res://Assets/PixelatedDisplay.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Template.gd" type="Script" id=3]
 [ext_resource path="res://Assets/spook.ogg" type="AudioStream" id=4]
 [ext_resource path="res://Assets/Passage.png" type="Texture" id=5]
+[ext_resource path="res://Assets/bone inventory.png" type="Texture" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 19
@@ -23,7 +24,7 @@ __meta__ = {
 }
 
 [node name="Background" type="Sprite" parent="."]
-position = Vector2( 93.0952, 0.91272 )
+position = Vector2( 93.0952, 3.57628e-07 )
 scale = Vector2( 0.084, 0.0599961 )
 texture = ExtResource( 5 )
 centered = false
@@ -44,7 +45,7 @@ margin_top = 25.0
 margin_right = 915.0
 margin_bottom = 375.0
 custom_fonts/font = SubResource( 1 )
-text = "When you move the bookshelf, you see a dimly lit passage. You decide to walk down it in hopes of finding an exit. Two doors await you at the end of the passage way. Whcih one do you open?"
+text = "When you move the bookshelf, you see a dimly lit passage. You decide to walk down it in hopes of finding an exit. Two doors await you at the end of the passage way. Which one do you open?"
 align = 1
 valign = 1
 autowrap = true
@@ -94,3 +95,8 @@ stream = ExtResource( 4 )
 volume_db = -20.0
 pitch_scale = 0.5
 autoplay = true
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 260.398, 558.413 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 6 )

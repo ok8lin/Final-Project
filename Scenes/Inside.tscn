@@ -39,12 +39,16 @@ __meta__ = {
 }
 
 [node name="Text" type="Label" parent="."]
+anchor_left = 0.000891325
+anchor_top = 5.08626e-08
+anchor_right = 0.000891325
+anchor_bottom = 5.08626e-08
 margin_left = 115.0
 margin_top = 25.0
 margin_right = 915.0
 margin_bottom = 375.0
 custom_fonts/font = SubResource( 1 )
-text = "You wake up in an unfamiliar room. The walls are lined in cobblestone and pews fill up the dark chapel you find yourself in. The air is crisp. When you exhale, you can see a faint fog. You grunt as you stand up and dust yourself off. Theres a single bookshelf across from you. Where do you explore?"
+text = "You wake up in an small room that feels oddly familiar. The walls are lined in cobblestone and pews fill up the dark chapel you find yourself in. The air is crisp. When you exhale, you can see a faint fog. You grunt as you stand up and dust yourself off. Theres a single bookshelf across from you. Where do you explore?"
 align = 1
 valign = 1
 autowrap = true
@@ -91,6 +95,6 @@ Next_Scene = "res://Scenes/Pews.tscn"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
-volume_db = -1.01
-pitch_scale = 0.6
+volume_db = -20.0
+pitch_scale = 0.5
 autoplay = true

@@ -44,7 +44,7 @@ margin_top = 25.0
 margin_right = 915.0
 margin_bottom = 375.0
 custom_fonts/font = SubResource( 1 )
-text = "Passage "
+text = "When you move the bookshelf, you see a dimly lit passage. You decide to walk down it in hopes of finding an exit. Two doors await you at the end of the passage way. Whcih one do you open?"
 align = 1
 valign = 1
 autowrap = true
@@ -62,16 +62,17 @@ __meta__ = {
 [node name="Response1" type="Button" parent="Responses"]
 anchor_left = 0.022818
 anchor_right = 0.022818
-margin_left = 299.087
+margin_left = 300.0
 margin_top = 400.0
-margin_right = 699.087
+margin_right = 700.0
 margin_bottom = 440.0
 custom_fonts/font = SubResource( 2 )
-text = "The Bookshelf"
+text = "The Left"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+Next_Scene = "res://Scenes/LeftWithPassage.tscn"
 
 [node name="Response2" type="Button" parent="Responses"]
 anchor_top = -0.0456329
@@ -81,11 +82,12 @@ margin_top = 451.825
 margin_right = 700.0
 margin_bottom = 491.825
 custom_fonts/font = SubResource( 2 )
-text = "The Pews"
+text = "The Right"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+Next_Scene = "res://Scenes/RightWithPassage.tscn"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )

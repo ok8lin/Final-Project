@@ -2,9 +2,12 @@ extends Control
 
 
 func _ready():
-	var responces = $Responses.get_children()
-	for r in responces :
-		if r.Next_Scene == "":
-			r.queue_free()
+	pass
 
 
+
+
+func _on_Response1_pressed():
+# warning-ignore:return_value_discarded
+	get_tree().change_scene("res://Scenes/Inside.tscn")
+	pass

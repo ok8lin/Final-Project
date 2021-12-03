@@ -6,3 +6,5 @@ func _ready():
 	for r in responces :
 		if r.Next_Scene == "":
 			r.queue_free()
+
+

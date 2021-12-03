@@ -3,7 +3,7 @@
 [ext_resource path="res://Response.gd" type="Script" id=1]
 [ext_resource path="res://Assets/PixelatedDisplay.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Template.gd" type="Script" id=3]
-[ext_resource path="res://Assets/spook.ogg" type="AudioStream" id=4]
+[ext_resource path="res://Assets/267891__kangaroovindaloo__spooky-wind-2.wav" type="AudioStream" id=4]
 [ext_resource path="res://Assets/Passage.png" type="Texture" id=5]
 [ext_resource path="res://Assets/bone inventory.png" type="Texture" id=6]
 
@@ -93,7 +93,6 @@ Next_Scene = "res://Scenes/RightWithPassage.tscn"
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
 volume_db = -20.0
-pitch_scale = 0.5
 autoplay = true
 
 [node name="Sprite" type="Sprite" parent="."]

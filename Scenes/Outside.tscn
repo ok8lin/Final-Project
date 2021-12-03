@@ -3,7 +3,7 @@
 [ext_resource path="res://Response.gd" type="Script" id=1]
 [ext_resource path="res://Assets/PixelatedDisplay.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Template.gd" type="Script" id=3]
-[ext_resource path="res://Assets/spook.ogg" type="AudioStream" id=4]
+[ext_resource path="res://Assets/219148__cusconauta__wind-spooky.wav" type="AudioStream" id=4]
 [ext_resource path="res://Assets/Outside.JPG" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
@@ -94,5 +94,5 @@ Next_Scene = "res://Scenes/Inside.tscn"
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
 volume_db = -20.0
-pitch_scale = 0.5
+pitch_scale = 0.95
 autoplay = true

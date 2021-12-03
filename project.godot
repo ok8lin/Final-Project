@@ -11,8 +11,12 @@ config_version=4
 [application]
 
 config/name="Final Project"
-run/main_scene="res://Scenes/Inside.tscn"
+run/main_scene="res://Scenes/UI.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+UI="res://Scenes/UI.tscn"
 
 [physics]
 

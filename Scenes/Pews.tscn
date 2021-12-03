@@ -3,7 +3,7 @@
 [ext_resource path="res://Response.gd" type="Script" id=1]
 [ext_resource path="res://Assets/PixelatedDisplay.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Template.gd" type="Script" id=3]
-[ext_resource path="res://Assets/spook.ogg" type="AudioStream" id=4]
+[ext_resource path="res://Assets/456289__stratocube__ambient-atmosphere-01.wav" type="AudioStream" id=4]
 [ext_resource path="res://Assets/Inside.png" type="Texture" id=5]
 [ext_resource path="res://Assets/key inventory.png" type="Texture" id=6]
 

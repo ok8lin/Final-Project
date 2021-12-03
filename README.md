@@ -1,22 +1,23 @@
-# Final-Project
+# Final-Project (Convolution)
 December 2, 2021, Final Project (Game Jam) for MSCH-C220
 Members: Kaitlin Harris, Grace Richardson, Avriel Donaldson
 
-A Choose-Your-Own-Adventure game in Godot. Includes multiple locations and different choices. Pixel backgrounds made by Avriel Donaldson. Sprite images made by Grace Richardson. Narration and start screen music created by Kaitlin Harris. Coding done by all members.
+A Choose-Your-Own-Adventure game in Godot. Includes multiple locations and different choices. Pixel backgrounds made by Avriel Donaldson. Sprite images made by Grace Richardson. Narration and start screen music created by Kaitlin Harris. Coding done by all members. Convolution is another word for loop or coil. The main theme of the game is being stuck in a loop. There's not necessarily a way to win because the player will keep getting poisioned and will keep forgetting their memory as the day restarts. Members didn't feel like coding was their strong suit... so we made the best out of the strengths that we had. 
+
 ## Implementation
 Built using Godot 3.3.3
- * [Food Kit](https://kenney.nl/assets/food-kit)provided by kenney.nl. 
- * [Blocky Characters](https://kenney.nl/assets/blocky-characters) provided by kenny.nl.
- * [Zombie Sound](https://freesound.org/people/gneube/sounds/315844/)
- * [Coin Sound](https://freesound.org/people/gneube/sounds/315844/)
- * [Music- Dreaming](https://patrickdearteaga.com/royalty-free-music/page-3/)
+ * [Pixelated](https://fontesk.com/pixelated-display-font/)provided by JetsMax Studio
+ * [Wind Sound](https://freesound.org/people/cusconauta/sounds/219148//)
+ * [Wind 2 Sound](https://freesound.org/people/kangaroovindaloo/sounds/267891/)
+ * [Ambient Sound](https://freesound.org/people/Stratocube/sounds/456289/)
+ * [Forest Sound](https://freesound.org/people/wck1966/sounds/423282/)
 
 
 ## References
-None 
+Jason Franscis Supplementary Video (https://www.youtube.com/watch?v=bBAZTqT6vJU)
 
 ## Future Development
 None 
 
 ## Created by
-Kaitlin Harris
+Kaitlin Harris, Grace Richardson, Avriel Donaldson

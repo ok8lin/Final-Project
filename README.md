@@ -28,4 +28,4 @@ None
 
 ## Created by
 Kaitlin Harris, Grace Richardson, Avriel Donaldson
-Pixel backgrounds made by Avriel Donaldson. Sprite images made by Grace Richardson. Narration and start screen music created by Kaitlin Harris. Coding done by all members.
+Pixel backgrounds made by Avriel Donaldson. Sprite images made by Grace Richardson. Narration created by Kaitlin Harris. Coding done by all members.

@@ -14,7 +14,7 @@ Built using Godot 3.3.3
 
 
 ## References
-Jason Franscis Supplementary Video (https://www.youtube.com/watch?v=bBAZTqT6vJU)
+Jason Francis Supplementary Video (https://www.youtube.com/watch?v=bBAZTqT6vJU)
 
 ## Future Development
 None 
